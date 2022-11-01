@@ -1,10 +1,29 @@
 {% extends "admin/base.html" %}
 {% load static %}
 <link href="{% static 'external.css' %}" rel="stylesheet">
+<link rel="icon" href="data:;base64,=">
 {% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
 {% block extrastyle %}
 <style>
-    
+body {
+    background: #004a95;
+}
+
+h1 {
+    color: #f5dd5d;
+}
+
+#header {
+    background: #1d7ad7;
+}
+
+#branding {
+    width: 90%;
+}
+
+#site-name {
+    float: right;
+}
 
 </style>
 {% endblock %}
