@@ -7,6 +7,7 @@ ___
 ## Setup:
 
 + ```git clone https://github.com/IhorVoskoboinikov/Django_Test_Prodject.git```
++ ```cd Django_Test_Prodject```
 + ```pip install -r requirements.txt```
 + ```python manage.py makemigrations```
 + ```python manage.py migrate ```
