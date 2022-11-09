@@ -20,6 +20,7 @@ ___
 
 > 1. Go to the url where our website was launched http://127.0.0.1:8000
 > 2. Go to the admin panel follow the link http://127.0.0.1:8000/admin enter your username and password
+> 3. if you want to receive applications from the site, join the group at the link - https://t.me/+rbFvjhXbHjY2NGRi
 
 ___
 
