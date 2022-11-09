@@ -11,5 +11,5 @@ class CmsSlider(models.Model):
         return self.cms_title
 
     class Meta:
-        verbose_name = 'Слайд'
-        verbose_name_plural = 'Слайды'
+        verbose_name = 'Slide'
+        verbose_name_plural = 'Slides'
