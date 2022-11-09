@@ -3,8 +3,8 @@ from .models import TeleSettings
 
 
 def send_telegram(tg_name, tg_phone):
-    if TeleSettings.objects.get(pk=1):
-        settings = TeleSettings.objects.get(pk=1)
+    if TeleSettings.objects.first():
+        settings = TeleSettings.objects.first()
         token = str(settings.tg_token)
         chat_id = str(settings.tg_chat)
         text = str(settings.tg_message)
