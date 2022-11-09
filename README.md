@@ -11,16 +11,14 @@ ___
 + ```pip install -r requirements.txt```
 + ```python manage.py makemigrations```
 + ```python manage.py migrate ```
++ ```python manage.py createsuperuser ```enter your username and password
 + ```python .\manage.py runserver ```
 ___
 
 ## Usage:
 
-> 1. go to the url where our website was launched http://127.0.0.1:8000
-> 2. to go to the admin panel follow the link http://127.0.0.1:8000/admin
-> 3. Super Admin:
-  Login : ```admin_test```
-  Password:  ```admin1111```
+> 1. Go to the url where our website was launched http://127.0.0.1:8000
+> 2. Go to the admin panel follow the link http://127.0.0.1:8000/admin enter your username and password
 
 ___
 
