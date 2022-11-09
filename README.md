@@ -1,6 +1,6 @@
 # **Site application for Django + admin**
 ___
-## A test site where the client can get acquainted with the services and promotional goods and leave a request for an order.The admin panel for employees for filling and operating the site has also been fully implemented.
+## It is a site when the client can get acquainted with the services and promotional goods and leave a request for an order. The admin panel for filling and working the site has also been implemented.
 
 ___
 
