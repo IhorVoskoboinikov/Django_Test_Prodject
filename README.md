@@ -7,12 +7,13 @@ ___
 ## Setup:
 
 + ```git clone https://github.com/ihorvoskoboinikov/django_test_prodject.git```
-+ ```cd Django_Test_Prodject```
++ ```cd django_test_prodject```
 + ```pip install -r requirements.txt```
 + ```python manage.py makemigrations```
-+ ```python manage.py migrate ```
-+ ```python manage.py createsuperuser ```enter your username and password
-+ ```python .\manage.py runserver ```
++ ```python manage.py migrate```
++ ```python data_to_db.py```
++ ```python manage.py createsuperuser```enter your username and password
++ ```python manage.py runserver```
 ___
 
 ## Usage:
