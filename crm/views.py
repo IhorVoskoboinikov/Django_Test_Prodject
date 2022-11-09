@@ -9,9 +9,10 @@ from telebot.send_message import send_telegram
 
 def first_page(request):
     slider_list = CmsSlider.objects.all()
-    pc_1 = PriceCard.objects.get(pk=1)
-    pc_2 = PriceCard.objects.get(pk=2)
-    pc_3 = PriceCard.objects.get(pk=3)
+    card_list = PriceCard.objects.all().order_by('id')[:3]
+    pc_1 = card_list[0]
+    pc_2 = card_list[1]
+    pc_3 = card_list[2]
     price_table = PriceTable.objects.all()
     form = OrderForm()
     dict_obj = {
