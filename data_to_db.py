@@ -13,67 +13,67 @@ from price.models import PriceCard, PriceTable
 slider_data = {
     'data_1': {
         'img': 'sliderimg/1.jpg',
-        'title': 'Первый слайд',
-        'text': 'Первый тестовый текст',
+        'title': 'First slide',
+        'text': 'First test text',
         'css': 'active',
     },
     'data_2': {
         'img': 'sliderimg/2.jpg',
-        'title': 'Второй слайд',
-        'text': 'Второй тестовый текст',
+        'title': 'Second slide',
+        'text': 'Second test text',
         'css': '-',
     },
     'data_3': {
         'img': 'sliderimg/3.jpg',
-        'title': 'Третий слайд',
-        'text': 'Третий тестовый текст',
+        'title': 'Third slide',
+        'text': 'Third test text',
         'css': '-',
     },
     'data_4': {
         'img': 'sliderimg/4.jpg',
-        'title': 'Четвертый слайд',
-        'text': 'Четвертый тестовый текст',
+        'title': 'Fourth slide',
+        'text': 'Fourth test text',
         'css': '-',
     },
     'data_5': {
         'img': 'sliderimg/5.jpg',
-        'title': 'Пятый слайд',
-        'text': 'Пятый тестовый текст',
+        'title': 'Fifth slide',
+        'text': 'Fifth test text',
         'css': '-',
     }
 }
 chat_bot_data = {
     'token': '5590193388:AAHGbcuxBemr8MBHDhUTeYBnL7AdjNEjKVI',
     'chat_id': '-867564951',
-    'message': 'Заявка с сайта: Имя: { name } Телефон: { phone }'
+    'message': "Application from the site:\nName: { name }\nPhone: { phone }"
 }
 price_card_data = {
     'card_1': {
         'price': 1000,
-        'description': 'Цена №1',
+        'description': 'Price №1',
     },
     'card_2': {
         'price': 2000,
-        'description': 'Цена №2',
+        'description': 'Price №2',
     },
     'card_3': {
         'price': 3000,
-        'description': 'Цена №3',
+        'description': 'Price №3',
     },
 }
 price_table_data = {
     'table_1': {
-        'title': 'Услуга №1',
+        'title': 'Service №1',
         'old_price': 1000,
         'new_price': 500,
     },
     'table_2': {
-        'title': 'Услуга №2',
+        'title': 'Service №2',
         'old_price': 2000,
         'new_price': 1000,
     },
     'table_3': {
-        'title': 'Услуга №3',
+        'title': 'Service №3',
         'old_price': 3000,
         'new_price': 1500,
     },
